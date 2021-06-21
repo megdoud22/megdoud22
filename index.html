@@ -4,12 +4,28 @@
 	
 	</head>
 	<body>
-		<header>
-		</header>
-		<section>
+		<header >
+		<menu type="toolbar">
+  <li>
+    <button type="menu" menu="file-menu">Fichier</button>
+    <menu type="context" id="file-menu">
+      <menuitem label="Nouveau" >
+      <menuitem label="Enregistrer" >
+    </menu>
+  </li>
+  <li>
+    <button type="menu" menu="edit-menu">Éditer</button>
+    <menu type="context" id="edit-menu">
+      <menuitem label="Couper" >
+      <menuitem label="Copier" >
+      <menuitem label="Coller" >
+    </menu>
+  </li>
+</menu>
+			</header>
+			<section>
 		</section>
-		
-		<footer>
+			<footer>
 		</footer>
-	</body>
-</html> 
+		</body>
+	</html> 
