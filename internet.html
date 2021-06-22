@@ -49,21 +49,34 @@
 				<h2 id="allons_plus_loin">
 					<a href="#allons_plus_loin" title="Permalink to Allons plus loin">Allons plus loin</a>
 				</h2>
-			
 				<h3 id="un_réseau_de_base">
 					<a href="#un_réseau_de_base" title="Permalink to Un réseau de base">Un réseau de base</a>
 				</h3>
-				
-					<p>Pour que deux ordinateurs puissent communiquer entre eux, ils doivent être liés soit par un lien physique (généralement par un
-						<a href="https://fr.wikipedia.org/wiki/Ethernet" rel="external noopener" class="external">câble Ethernet</a>
-						), soit sans fil (par exemple, via
-						<a href="http://fr.wikipedia.org/wiki/WiFi" rel="external noopener" class="external">WiFi</a>
-						ou
-						<a href="http://fr.wikipedia.org/wiki/Bluetooth" rel="external noopener" class="external">Bluetooth</a>
-						). Tous ces types de connexions sont possibles sur les ordinateurs modernes.
-					</p>
-					<img src="Images/internet-schema-1.png" alt="Schema Reseau"/>
-				</section>
-				<footer/>
-			</body>
-		</html>
+				<p>Pour que deux ordinateurs puissent communiquer entre eux, ils doivent être liés soit par un lien physique (généralement par un
+					<a href="https://fr.wikipedia.org/wiki/Ethernet" rel="external noopener" class="external">câble Ethernet</a>
+					), soit sans fil (par exemple, via
+					<a href="http://fr.wikipedia.org/wiki/WiFi" rel="external noopener" class="external">WiFi</a>
+					ou
+					<a href="http://fr.wikipedia.org/wiki/Bluetooth" rel="external noopener" class="external">Bluetooth</a>
+					). Tous ces types de connexions sont possibles sur les ordinateurs modernes.
+				</p>
+				<img src="Images/internet-schema-1.png" alt="Schema Reseau"/>
+				<p>Un réseau comme celui illustré ci-haut n'est pas limité à deux ordinateurs. Vous pouvez y connecter autant d'ordinateurs que vous le souhaitez, mais le tout se complique très rapidement. Ainsi, si vous voulez relier, disons, dix ordinateurs entre eux, vous aurez besoin de 45 câbles et de neuf prises sur chaque ordinateur!</p>
+				<img src="Images/internet-schema-2.png" alt="Token reseau"/>
+				<p>Afin de résoudre ce problème, chaque ordinateur du réseau est relié à un petit ordinateur bien spécial que l'on appelle routeur. Ce routeur n'a qu'une seule fonction : tout comme un signaleur de gare de train, il s'assure que les messages transmis par un ordinateur donné se rendent au bon ordinateur destinataire. Ainsi, pour envoyer un message à l'ordinateur B, l'ordinateur A transmet d'abord le message au routeur, qui s'assure alors de transférer le message à l'ordinateur B et non à l'ordinateur C. Vous voyez donc que lorsque nous ajoutons un routeur dans notre structure, notre réseau de dix ordinateurs ne requiert alors que de dix câbles, d'une prise par ordinateur et d'un routeur de 10 ports.</p>
+				<img src="Images/internet-schema-3.png" alt="Token reseau"/>
+				<h3 id="un_réseau_de_réseaux">
+					<a href="#un_réseau_de_réseaux" title="Permalink to Un réseau de réseaux">Un réseau de réseaux</a>
+				</h3>
+				<p>Jusqu'ici tout est beau, mais comment fait-on pour relier des centaines, des milliers ou même des millards d'ordinateurs entre eux ? Bien évidemment, un seul
+					<em>routeur</em>
+					ne pourrait suffire pour tant de connexions. Cependant, si vous avez lu attentivement, vous aurez constaté qu'un
+					<em>routeur</em>
+					n'est en réalité qu'un ordinateur. Serait-ce alors possible de lier deux
+					<em>routeurs</em>
+					? Oui, absolument, et en voici le résultat!
+				</p>
+			</section>
+			<footer/>
+		</body>
+	</html>
