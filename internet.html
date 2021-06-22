@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-
 <html>
 	<head/>
-	<body bgcolor="#4527a0" text="white" link="white" vlink="white" alink="white" marginheight="0px">
+	<body bgcolor="#181a1b" text="white" link="white" vlink="white" alink="white" marginheight="0px">
 		<font face="Bahnschrift">
 			<header>
 				<center>
@@ -34,10 +33,37 @@
 					</table>
 				</center>
 			</header>
-			<section>
-				<h2 id="résumé">
+		</br>
+	</br>
+</br>
+<table>
+	<tr>
+		<td width="10%" valign="top">
+			<h4>Sommaire</h4>
+			<ul>
+				<li>
 					<a href="#résumé" title="Permalink to Résumé">Résumé</a>
-				</h2>
+				</li>
+				<li>
+					<a href="#allons_plus_loin" title="Permalink to Allons plus loin">Allons plus loin</a>
+				</li>
+				<li>
+					<a href="#un_réseau_de_base" title="Permalink to Un réseau de base">Un réseau de base</a>
+				</li>
+				<li>
+					<a href="#un_réseau_de_réseaux" title="Permalink to Un réseau de réseaux">Un réseau de réseaux</a>
+				</li>
+				<li>
+					<a href="#localiser_un_ordinateur" title="Permalink to Localiser un ordinateur">Localiser un ordinateur</a>
+				</li>
+				<li>
+					<a href="#l'internet_et_le_web" title="Permalink to L'Internet et le web">L'Internet et le web</a>
+				</li>
+			</ul>
+		</td>
+		<td>
+			<section>
+				<h2 id="résumé">Résumé</h2>
 				<p>L'
 					<strong>Internet</strong>
 					est l'épine dorsale du Web&nbsp;: il s'agit de l'infrastructure technique qui sous-tend le Web. De façon simple, l'Internet est un vaste réseau d'ordinateurs qui communiquent les uns avec les autres.
@@ -46,12 +72,8 @@
 					<a href="https://fr.wikipedia.org/wiki/Internet#Historique" rel="external noopener" class="external">L'histoire des débuts de l'Internet est quelque peu nébuleuse</a>
 					. Tout aurait commencé dans les années 1960 par un projet de recherche subventionné par le département de la Défense des États-Unis. L'Internet serait ensuite devenu, dans les années 1980, une infrastructure publique grâce au soutien de nombreuses universités publiques et entreprises privées. Les diverses technologies qui sous-tendent l'Internet ont évolué au fil du temps, mais son fonctionnement de base a, quant à lui, peu changé. L'Internet demeure un moyen de relier tous les ordinateurs entre eux et de s'assurer que ce lien perdure, peu importe les problèmes qui pourraient toucher le réseau.
 				</p>
-				<h2 id="allons_plus_loin">
-					<a href="#allons_plus_loin" title="Permalink to Allons plus loin">Allons plus loin</a>
-				</h2>
-				<h3 id="un_réseau_de_base">
-					<a href="#un_réseau_de_base" title="Permalink to Un réseau de base">Un réseau de base</a>
-				</h3>
+				<h2 id="allons_plus_loin">Allons plus loin</h2>
+				<h3 id="un_réseau_de_base">Un réseau de base</h3>
 				<p>Pour que deux ordinateurs puissent communiquer entre eux, ils doivent être liés soit par un lien physique (généralement par un
 					<a href="https://fr.wikipedia.org/wiki/Ethernet" rel="external noopener" class="external">câble Ethernet</a>
 					), soit sans fil (par exemple, via
@@ -65,9 +87,7 @@
 				<img src="Images/internet-schema-2.png" alt="Token reseau"/>
 				<p>Afin de résoudre ce problème, chaque ordinateur du réseau est relié à un petit ordinateur bien spécial que l'on appelle routeur. Ce routeur n'a qu'une seule fonction : tout comme un signaleur de gare de train, il s'assure que les messages transmis par un ordinateur donné se rendent au bon ordinateur destinataire. Ainsi, pour envoyer un message à l'ordinateur B, l'ordinateur A transmet d'abord le message au routeur, qui s'assure alors de transférer le message à l'ordinateur B et non à l'ordinateur C. Vous voyez donc que lorsque nous ajoutons un routeur dans notre structure, notre réseau de dix ordinateurs ne requiert alors que de dix câbles, d'une prise par ordinateur et d'un routeur de 10 ports.</p>
 				<img src="Images/internet-schema-3.png" alt="Token reseau"/>
-				<h3 id="un_réseau_de_réseaux">
-					<a href="#un_réseau_de_réseaux" title="Permalink to Un réseau de réseaux">Un réseau de réseaux</a>
-				</h3>
+				<h3 id="un_réseau_de_réseaux">Un réseau de réseaux</h3>
 				<p>Jusqu'ici tout est beau, mais comment fait-on pour relier des centaines, des milliers ou même des millards d'ordinateurs entre eux ? Bien évidemment, un seul
 					<em>routeur</em>
 					ne pourrait suffire pour tant de connexions. Cependant, si vous avez lu attentivement, vous aurez constaté qu'un
@@ -83,9 +103,7 @@
 				<img src="Images/internet-schema-6.png" alt="Token reseau"/>
 				<p>Notre réseau est donc lié à l'infrastructure téléphonique. La prochaine étape consiste alors à transmettre avec succès nos messages au réseau cible. À cette fin, nous allons lier notre réseau à un Fournisseur d'accès à Internet (FAI). Un FAI est une entreprise qui gère des routeurs qui sont liés entre eux et qui ont des droits d'accès aux routeurs d'autres FAI. Le message transmis par notre réseau est ainsi transporté à travers le réseau de FAI afin d'atteindre le réseau cible. Voilà en quoi consiste l'Internet : il s'agit de toute cette infrastructure de réseaux (dans les schémas suivants, ISP signifie FAI, c'est le terme anglais pour fournisseur d'accès).</p>
 				<img src="Images/internet-schema-7.png" alt="Token reseau"/>
-				<h3 id="localiser_un_ordinateur">
-					<a href="#localiser_un_ordinateur" title="Permalink to Localiser un ordinateur">Localiser un ordinateur</a>
-				</h3>
+				<h3 id="localiser_un_ordinateur">Localiser un ordinateur</h3>
 				<div>
 					<p>Lorsque nous souhaitons transmettre un message à un ordinateur, nous devons préciser de quel ordinateur il s'agit. Par conséquent, chaque ordinateur lié à un réseau possède une adresse unique appelée «&nbsp;adresse IP&nbsp;» (où «&nbsp;IP&nbsp;» signifie
 						<em>Internet Protocol</em>
@@ -103,9 +121,7 @@
 						<code>173.194.121.32</code>
 						. L'utilisation d'un nom de domaine est ainsi le moyen le plus facile d'atteindre un ordinateur via l'Internet.
 					</p>
-					<h3 id="localiser_un_ordinateur">
-						<a href="#localiser_un_ordinateur" title="Permalink to Localiser un ordinateur">Localiser un ordinateur</a>
-					</h3>
+					<h3 id="localiser_un_ordinateur">Localiser un ordinateur</h3>
 					<div>
 						<p>Lorsque nous souhaitons transmettre un message à un ordinateur, nous devons préciser de quel ordinateur il s'agit. Par conséquent, chaque ordinateur lié à un réseau possède une adresse unique appelée «&nbsp;adresse IP&nbsp;» (où «&nbsp;IP&nbsp;» signifie
 							<em>Internet Protocol</em>
@@ -124,9 +140,7 @@
 							. L'utilisation d'un nom de domaine est ainsi le moyen le plus facile d'atteindre un ordinateur via l'Internet.
 						</p>
 						<img src="Images/dns-ip.png" alt="URl"/>
-						<h3 id="l'internet_et_le_web">
-							<a href="#l'internet_et_le_web" title="Permalink to L'Internet et le web">L'Internet et le web</a>
-						</h3>
+						<h3 id="l'internet_et_le_web">L'Internet et le web</h3>
 						<div>
 							<p>Vous aurez peut-être constaté que lorsque nous naviguons sur le Web avec un navigateur Web, nous utilisons un nom de domaine pour rejoindre un site web. Est-ce donc dire qu'Internet et Web réfèrent à une seule et même notion ? La réponse n'est pas si simple. Comme nous l'avons vu, l'Internet est une infrastructre technique qui lie des milliards d'ordinateurs entre eux. Parmi ces ordinateurs, certains ordinateurs (appelés
 								<em>serveurs Web</em>
@@ -138,7 +152,23 @@
 								<a href="/fr/docs/Glossary/IRC">IRC</a>
 								.
 							</p>
+							<li>
+								<a href="#résumé" title="Permalink to Résumé">Retour de page</a>
+							</li>
+							<h3>Source:</h3>
+							<a href="https://developer.mozilla.org/fr/docs/Learn/Common_questions/How_does_the_Internet_work#">Mozilla</a>
 						</section>
-						<footer/>
-					</body>
-				</html>
+					</td>
+					<td width="10%"/>
+				</tr>
+			</table>
+		</br>
+	</br>
+	<center>
+		<footer>
+			<a href="Contact.html">Contact</a>
+			<a href="Page7.html">A propos</a>
+		</footer>
+	</center>
+</body>
+</html>
