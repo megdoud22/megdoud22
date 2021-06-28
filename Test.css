@@ -1,1 +1,46 @@
 
+/* index.html*/
+
+
+body
+  {
+   border-radius:20px;
+   background-color:gray;
+  } 
+  
+   h1
+   {
+	 font-style:italic;
+     font-size:100px;
+	 font-family:serif;
+	 font-weight:bold;
+	 text-align: center;
+	 color:white;
+   }
+  
+.navbar ul
+   {
+	border-radius: 20px;
+   }
+  
+.navbar ul li 
+  {
+	list-style-type: none;
+	color:white;
+	background:url("Images/background.jpg") no-repeat;
+	padding-left:18px;
+
+	
+  }
+
+.navbar ul li img
+  {
+	border:6px gray ridge;
+	border-radius: 20px;
+	
+	
+  }
+  
+  
+  
+  
