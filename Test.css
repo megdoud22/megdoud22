@@ -6,17 +6,22 @@
   {
    background-color:gray;
   } 
+  .mon-logo
+  {
+	background-color:blue;  
+	border:3px solid black;
+  }
   
   h1
   {
-   background-color:black;
+   background-color:tomato;
    width:80%;
    font-size:80px;
    font-family:serif;
-   margin-left:80px;
-   padding:15px 0 15px 100px;
+   margin-left:40px;
+   padding:15px 100px 15px 150px;
    box-shadow: 16px 16px 16px yellow;
-   text-shadow:12px 12px 14px green;
+   text-shadow:12px 12px 14px black;
    color:white;
    border:12px white double;
    border-radius:15px;
@@ -24,6 +29,8 @@
    font-weight:bolder;
    
   }
+  
+	
    
   #titre-principal
   {
@@ -39,7 +46,7 @@
   
    font-size:100px;
    color:yellow;
-   background-color:black;
+   background-color:tomato;
   }
   
 .Mon-cadre 
