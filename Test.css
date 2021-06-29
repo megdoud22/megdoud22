@@ -5,7 +5,7 @@
 body
   {
    border-radius:20px;
-   background-color:gray;
+  
   } 
   
    h1
@@ -16,6 +16,7 @@ body
 	 font-weight:bold;
 	 text-align: center;
 	 color:white;
+	
    }
   
 .navbar ul
@@ -40,6 +41,8 @@ body
 	
 	
   }
+  
+  
   
   
   
