@@ -4,14 +4,18 @@
 
   body
   {
-   background-color:gray;
+   background-color:#2C3E50 ;
   } 
-  .mon-logo
+  .logo
   {
-	background-color:blue;  
-	border:3px solid black;
+   
+   border:10px white double;
+   background:black;
+   margin-right:1600px;
+   border-radius:15px;
+   margin-left:15px;
   }
-  
+ 
   h1
   {
    background-color:tomato;
@@ -46,7 +50,9 @@
   
    font-size:100px;
    color:yellow;
-   background-color:tomato;
+   background:DodgerBlue;
+   border-radius:12px;
+   
   }
   
 .Mon-cadre 
@@ -83,6 +89,7 @@
 	
 	
   }
+  
   
   
   
