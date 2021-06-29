@@ -1,37 +1,72 @@
 
-/* index.html*/
+ /* index.html*/
 
 
-body
+  body
   {
-   border-radius:20px;
-  
+   background-color:gray;
   } 
   
-   h1
+  h1
+  {
+   background-color:black;
+   width:80%;
+   font-size:80px;
+   font-family:serif;
+   margin-left:80px;
+   padding:15px 0 15px 100px;
+   box-shadow: 16px 16px 16px yellow;
+   text-shadow:12px 12px 14px green;
+   color:white;
+   border:12px white double;
+   border-radius:15px;
+   font-style:italic;
+   font-weight:bolder;
+   
+  }
+   
+  #titre-principal
+  {
+   color:yellow;
+   
+  
+   font-size:100px;
+  }
+   
+  mark
+  {
+    
+  
+   font-size:100px;
+   color:yellow;
+   background-color:black;
+  }
+  
+.Mon-cadre 
    {
-	 font-style:italic;
-     font-size:100px;
-	 font-family:serif;
-	 font-weight:bold;
-	 text-align: center;
-	 color:white;
-	
+    width: 250px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 20px;
+	box-shadow: 16px 16px 16px yellow;
    }
+
   
 .navbar ul
    {
 	border-radius: 20px;
+
    }
   
-.navbar ul li 
+.navbar ul li
   {
-	list-style-type: none;
+	list-style-type:footnotes ;
 	color:white;
-	background:url("Images/background.jpg") no-repeat;
-	padding-left:18px;
+	text-decoration: underline;
 
-	
+
+  background:url("Images/background.jpg") no-repeat;
+  padding-left:18px;
   }
 
 .navbar ul li img
@@ -41,9 +76,6 @@ body
 	
 	
   }
-  
-  
-  
   
   
   
