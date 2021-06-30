@@ -8,16 +8,29 @@
 	
 	<body>
 		<header>
-		    <h1>Bienvenue sur ma page d'Accueil</h1>
-			<br/>
-			<br/>
-			<br/>
+		    <br/>
+			<div class="bordure"><img src="Images/bordure.jpg" alt="bordure" width="500" height="100"/></div>
+			<div class="logo"><img src="Images/logo.jpg" alt="pc portable" width="200" height="130"/></div>
+			<h1><span id="titre-principal"><img src="Images/picture.jpg" alt="picture" width="70" height="70"/> Bienvenue sur ma <mark>page d'Accueil.</mark></span></h1>
+			
+			<section class="caroussel">
+			<div class="slider">
+                <div class="slides"> 
+                    <div class="slide"><img src="Images/materiel_informatique1.jpg" width="500" height="350" alt="carrousel "/></div>
+                    <div class="slide"><img src="Images/materiel_informatique2.jpg" width="500" height="350" alt="carrousel "/></div>
+                    <div class="slide"><img src="Images/materiel_informatique3.jpg" width="500" height="350" alt="carrousel "/></div>
+                    <div class="slide"><img src="Images/materiel_informatique5.jpg" width="500" height="350" alt="carrousel "/></div>
+                    <div class="slide"><img src="Images/materiel_informatique6.jpg" width="500" height="350" alt="carrousel "/></div>
+                    <div class="slide"><img src="Images/materiel_informatique7.jpg" width="500" height="350" alt="carrousel "/></div>
+                </div>
+            </div>
+		   </section>
+			
 			<section class="Mon-cadre">
-				
-		<nav class="navbar">
+			  <nav class="navbar">
 			    <ul>
 				    <li><h2>Découverte</h2><a href="decouverte.html"><img src="Images/histoire-de-informatique.jpg" width="280" height="210" alt="Photo de l'histoire de l'informatique"/></a></li>
-				    <br/>
+					<br/>
 					<br/>
 					<li><h2>Matériels</h2><a href="materiel.html"><img src="Images/Matériel-informatique.jpg" width="280" height="210" alt=" Photo de matériel informatique"/></a></li>
 					<br/>
@@ -33,35 +46,82 @@
 					<br/>
 					<li><h2>Internet</h2><a href="internet.html"><img src="Images/Internet.jpg " width="280" height="210" alt=" Photo internet"/></a></li>
 				</ul>
-		    </nav>	
-		    
-		    </section>
-		</header>
-		
-			<img src="images/ico_moniteur.png"  usemap="#moniteur" border="no" alt="Moniteur"/>
-				<map name="moniteur">
-					<area alt="Découverte" shape="rect" href="decouverte.html" coords = "196,57,289,150" title="Découverte"/>
-					<area alt="Matériel" shape="rect" href="materiel.html" coords = "432,58,541,156" title="Matériel"/>
-					<area alt="Assemblage" shape="rect" href="assemblage.html" coords = "972,626,767,157" title="Assemblage"/>
-					<area alt="Internet" shape="rect" href="internet.html" coords = "205,256,287,329" title="Internet"/>
-					<area alt="OS" shape="rect" href="OS.html" coords = "406,229,548,345" title="OS"/>
-					<area alt="Logiciels" shape="rect" href="Logiciels.html" coords = "654,239,770,333" title="Logiciels"/>
-				</map>
-				</br>
-				<p>Vous retrouverez tout ce qui concerne l'informatique pour les débutants.
-					On vous expliquera pas à pas les différents éléments de l'informatique.
-					Pour cela, veuillez cliquer sur l'un des liens au dessus de l'image pour commencer.
-				</p>
-				<img S src="Images/Win10.jpg" alt="Windows 10 fond" width="750"/>
-		
-		<footer>
-			<a href="Contact.html">Contact</a>
-			<a href="Page7.html">A propos</a>
-		</footer>
+		      </nav>
+			</section>
 			
+			<section class="Mon-cadre-f">
+			  <nav class="navbar">
+			    <ul>
+				    <li><h2>Réseaux</h2><a href="decouverte.html"><img src="Images/histoire-de-informatique.jpg" width="280" height="210" alt="Photo de l'histoire de l'informatique"/></a></li>
+					<br/>
+					<br/>
+					<li><h2>Développement Web</h2><a href="materiel.html"><img src="Images/Matériel-informatique.jpg" width="280" height="210" alt=" Photo de matériel informatique"/></a></li>
+					<br/>
+					<br/>
+					<li><h2>Sécurité informatique</h2><a href="logiciels.html"><img src="Images/logiciels.png" width="280" height="210" alt=" Photo de matériel informatique"/></a></li>
+					<br/>
+					<br/>
+					<li><h2>Langages de programmation</h2><a href="Assemblage-PC.html"><img src="Images/Assemblage-PC.jpg" width="280" height="210" alt=" Photo Assemblage d'un PC"/></a></li>
+					<br/>
+					<br/>
+					<li><h2>Maintenance et réparations</h2><a href="OS.html"><img src="Images/Systèmes-d'exploitations.jpg" width="280" height="210" alt=" Photo Systèmes d'exploitations"/></a></li>
+					<br/>
+					<br/>
+					<li><h2>Contact</h2><a href="internet.html"><img src="Images/Internet.jpg " width="280" height="210" alt=" Photo internet"/></a></li>
+				</ul>
+		      </nav>
+			</section>
+			
+			<section>
+			   <article>
+			        <h2>À propos de Moi :</h2>
+                    <div class="livret"><img class="cv" src="Images/CV-Fatah-Megdoud.PNG" alt="CV Megdoud Fatah" /></div>
+                    <p> Laisse-moi le temps de me présenter: je m'appelle <span class="informations">Fatah Megdoud</span> ,je suis un <span class="informations">Technicien en Maintenance Réseau</span>
+					     et en plus un<span class="informations"> Développeur Web</span>. L'informatique en général et en particulier la maintenance du réseau et le</br>
+					     Développement Web me passionnent énormément, aujourd'hui,j'ai décidé de créer un site d'apprentissage de</br>
+						 l'informatique à fin de partager mes connaissances et mon savoir-faire avec vous, soyez motivé tout se passera bien!.
+				    </p>
+			  </article>                                     
+		   </section>
+	</header>	
+		
+			  
+		
+		
+		
 		
 	</body>
 </html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

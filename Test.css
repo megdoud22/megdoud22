@@ -1,29 +1,92 @@
 
-/* index.html*/
+ /* index.html*/
 
 
-body
+  body
   {
-   background-color:gray;
-   
+   background-image:url("Images/Background-1.jfif");
   } 
+  .bordure
+  {
+   float:right;
+   border-left:12px double red;
+   border-right:12px double red;
+   
+   border-bottom:none;
+  }
+  .logo
+  {
+   
+   border:10px white double;
+   background:black;
+   margin-right:1600px;
+   border-radius:15px;
+   margin-left:15px;
+   border-color:;
+  }
+ 
+  h1
+  {
+   background-color:black;
+   width:80%;
+   font-size:70px;
+   font-family:serif;
+   margin-left:40px;
+   padding:15px 100px 15px 100px;
+   box-shadow: 16px 16px 16px yellow;
+   text-shadow:12px 12px 14px black;
+   color:white;
+   border:15px white ridge;
+   border-radius:65px;
+   border-right-style:dashed;
+   border-left-style:dashed;
+   border-bottom-style:none;
+   font-style:italic;
+   font-weight:bolder;
+   
+  }
   
-   h1
-   {
-	 font-style:italic;
+	
+   
+  #titre-principal
+  {
+   color:yellow;
    font-size:100px;
-	 font-family:serif;
-	 font-weight:bold;
-	 text-align: center;
-	 color:white;
-   }
+  }
+   
+  mark
+  {
+    
+  
+   font-size:100px;
+   color:yellow;
+   background:red;
+   border-radius:12px;
+   text-decoration:underline;
+   border:2px white double;
+   
+  }
+  
 .Mon-cadre 
    {
     width: 250px;
     background-color: black;
     border-radius: 20px;
-    margin-left: 20px;
+    margin-left: 80px;
+	box-shadow: 16px 16px 16px yellow;
+	margin-top:100px;
    }
+   
+ .Mon-cadre-f
+  {
+   float:right;
+   width: 250px;
+   background-color: black;
+   border-radius: 20px;
+   margin-right: 150px;
+   box-shadow: 16px 16px 16px yellow;
+   margin-top:-1950px;
+  }
 
   
 .navbar ul
@@ -34,7 +97,6 @@ body
   
 .navbar ul li
   {
-	list-style-type:footnotes ;
 	color:white;
 	text-decoration: underline;
 
@@ -50,6 +112,169 @@ body
 	
 	
   }
+  
+   .carroussel
+   {
+	 float:right;  
+   }
+  
+  .slider
+  {
+    width: 1900px;
+    overflow: hidden;
+    
+  }
+          
+ .slides
+  {
+    animation: glisse 30s infinite;
+    width: calc(500px * 7);
+            
+  }
+       
+	   
+
+  .slide
+      {
+       float: left;
+      }
+         
+       @keyframes glisse 
+          {
+            0% 
+            {
+              transform: translateX(0);
+            }
+
+            5% 
+            {
+              transform: translateX(0);
+            }
+
+            15% 
+            {
+              transform: translateX(-500px);
+            }
+
+            20% 
+            {
+              transform: translateX(-500px);
+            }
+
+            30% 
+            {
+              transform: translateX(-1000px);
+            }
+
+            35% 
+            {
+              transform: translateX(-1000px);
+            }
+
+            45% 
+            {
+              transform: translateX(-1500px);
+            }
+
+            50% 
+            {
+              transform: translateX(-1500px);
+            }
+
+            60% 
+            {
+              transform: translateX(-2000px);
+            }
+
+            65% 
+            {
+              transform: translateX(-2000px);
+            }
+
+            75% 
+            {
+              transform: translateX(-2500px);
+            }
+
+            80% 
+            {
+              transform: translateX(-2500px);
+            }
+
+            90% 
+            {
+              transform: translateX(-3000px);
+            }
+
+            95% 
+            {
+              transform: translateX(-3000px);
+            }
+
+            100% 
+            {
+              transform: translateX(0);
+            }
+
+            100% 
+            {
+              transform: translateX(0);
+            }
+           }
+		   
+		   
+    article
+	{
+	 width:40%;
+     height:1000px;
+	 margin-top:-2000px;
+     margin-left:60%;	
+     background-color: #706b64;
+     border-radius: 8px;
+     padding: 10px;
+     color: white;
+     font-size: 0.9em;
+	 font-family:serif;
+     text-align: justify;
+     height: 550px;
+     width: 300px;
+    }
+	
+	article h2
+	
+    {
+     text-align: center;
+     text-decoration: double underline;
+     color:#58D68D;
+    }
+	.informations
+	{
+	 color:#58D68D;	
+	 font-family:;
+	}
+	
+	.cv
+	{
+	 border-right: 4px solid brown;
+	 padding-left: 46px;
+	 box-shadow: 5px 0px 8px yellow;
+	}
+
+	.livret
+	{   
+	 width: 4%;
+	 height:292px;
+	 background-image: url('images/liseret.jpg');
+	 border-radius: 15px;
+	}
+   
+  
+  
+  
+  
+
+  
+  
   
   
   
