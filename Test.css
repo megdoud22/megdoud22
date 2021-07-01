@@ -2,10 +2,7 @@
  /* index.html*/
 
 
-  body
-  {
-   background-image:url("Images/Background-1.jfif");
-  } 
+  
   .bordure
   {
    float:right;
@@ -264,11 +261,16 @@
 	{   
 	 width: 4%;
 	 height:292px;
-	 background-image: url('images/liseret.jpg');
+	 background-image: url('Images/liseret.jpg');
 	 border-radius: 15px;
 	}
    
-  
+  footer
+{
+    display: flex;
+    background: url('Images/ico_top.png') no-repeat bottom center, url('Images/separateur.png') repeat-x bottom, url('Images/ombre.png') repeat-x bottom;
+    margin-bottom: 1000px;
+}
   
   
   
