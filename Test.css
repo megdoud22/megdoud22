@@ -53,7 +53,10 @@
   {
    color:yellow;
    font-size:100px;
+   
   }
+   
+   
   
   .morceau
   {
@@ -265,13 +268,41 @@
 	 background-image: url('images/liseret.jpg');
 	 border-radius: 15px;
 	}
-   
+  
+  
+  /* The animation code */
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: green;}
+}
+
+/* The element to apply the animation to */
+ h1{
+  
+  width:80%;
+  
+  background-color: black;
+  animation-name: example;
+  animation-duration: 20s;
+}
+
+
+
+  
+  
+  
+  
+  
   
   
   
   
   
 
+  
+  
+  
+  
   
   
   
