@@ -6,23 +6,27 @@
   {
    background-image:url("Images/Background-1.jfif");
   } 
+  
   .bordure
   {
    float:right;
    border-left:12px double red;
    border-right:12px double red;
-   
+   outline: 10px double yellow ;
+   outline-offset: 10px;
+   background: black;
    border-bottom:none;
+   margin-top:20px;
+   margin-right:25px;
   }
+  
   .logo
   {
-   
-   border:10px white double;
+   border:10px red double;
    background:black;
-   margin-right:1600px;
+   margin-right:1800px;
    border-radius:15px;
    margin-left:15px;
-   border-color:;
   }
  
   h1
@@ -30,11 +34,11 @@
    background-color:black;
    width:80%;
    font-size:70px;
-   font-family:serif;
+   font-family:serif, Times, Times New Roman, Georgia ;
    margin-left:40px;
    padding:15px 100px 15px 100px;
    box-shadow: 16px 16px 16px yellow;
-   text-shadow:12px 12px 14px black;
+   text-shadow:7px 7px 5px gray;
    color:white;
    border:15px white ridge;
    border-radius:65px;
@@ -43,41 +47,46 @@
    border-bottom-style:none;
    font-style:italic;
    font-weight:bolder;
-   
   }
   
-	
-   
   #titre-principal
   {
    color:yellow;
    font-size:100px;
   }
+  
+  .morceau
+  {
+  color:white;  
+  }
+  
+  .morceau-1
+  {
+   color:#5DADE2;  
+  }
    
   mark
   {
-    
-  
    font-size:100px;
    color:yellow;
    background:red;
    border-radius:12px;
    text-decoration:underline;
    border:2px white double;
-   
   }
   
-.Mon-cadre 
-   {
-    width: 250px;
-    background-color: black;
-    border-radius: 20px;
-    margin-left: 80px;
-	box-shadow: 16px 16px 16px yellow;
-	margin-top:100px;
-   }
+  .Mon-cadre 
+  {
+   float:lift;
+   width: 250px;
+   background-color: black;
+   border-radius: 20px;
+   margin-left:50px;
+   box-shadow: 16px 16px 16px yellow;
+   margin-top:90px;  
+  }
    
- .Mon-cadre-f
+  .Mon-cadre-f
   {
    float:right;
    width: 250px;
@@ -88,52 +97,38 @@
    margin-top:-1950px;
   }
 
-  
-.navbar ul
-   {
-	border-radius: 20px;
-
-   }
-  
-.navbar ul li
+  .navbar ul li
   {
-	color:white;
-	text-decoration: underline;
-
-
-  background:url("Images/background.jpg") no-repeat;
-  padding-left:18px;
+   color:white;
+   text-decoration: underline;
+   background:url("Images/background.jpg") no-repeat;
+   padding-left:18px;
   }
 
-.navbar ul li img
+  .navbar ul li img
   {
-	border:6px gray ridge;
-	border-radius: 20px;
-	
-	
+   border:6px gray ridge;
+   border-radius: 20px;
   }
   
-   .carroussel
-   {
-	 float:right;  
-   }
+  .caroussel
+  {
+   
+  	 
+  }
   
   .slider
   {
-    width: 1900px;
-    overflow: hidden;
-    
+  width: 1900px;
+  overflow: hidden;
   }
           
- .slides
+  .slides
   {
-    animation: glisse 30s infinite;
-    width: calc(500px * 7);
-            
+   animation: glisse 30s infinite;
+   width: calc(500px * 7);
   }
        
-	   
-
   .slide
       {
        float: left;
@@ -225,32 +220,35 @@
 		   
     article
 	{
-	 width:40%;
-     height:1000px;
+	 height:1500px;
 	 margin-top:-2000px;
      margin-left:60%;	
      background-color: #706b64;
      border-radius: 8px;
-     padding: 10px;
+     padding:10px;
      color: white;
+	 text-indent:18px;
+	 letter-spacing:0,2px;
+	 word-spacing:3px;
+	 line-height:1.2;
      font-size: 0.9em;
-	 font-family:serif;
+	 font-family:serif,Times;
      text-align: justify;
-     height: 550px;
-     width: 300px;
+     height:550px;
+     width:300px;
+	 text-transform:capitalize;
     }
 	
 	article h2
-	
-    {
+	{
      text-align: center;
      text-decoration: double underline;
      color:#58D68D;
-    }
+	}
+	
 	.informations
 	{
 	 color:#58D68D;	
-	 font-family:;
 	}
 	
 	.cv
@@ -262,8 +260,8 @@
 
 	.livret
 	{   
-	 width: 4%;
-	 height:292px;
+	 width: 10%;
+	 height:280px;
 	 background-image: url('images/liseret.jpg');
 	 border-radius: 15px;
 	}
@@ -272,7 +270,12 @@
   
   
   
+  
 
+  
+  
+  
+  
   
   
   
