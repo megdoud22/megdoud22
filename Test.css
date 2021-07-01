@@ -222,16 +222,16 @@
 		   
     article
 	{
-	 width:40%;
+	   width:40%;
      height:1000px;
-	 margin-top:-2000px;
+	 
      margin-left:60%;	
      background-color: #706b64;
      border-radius: 8px;
      padding: 10px;
      color: white;
      font-size: 0.9em;
-	 font-family:serif;
+	   font-family:serif;
      text-align: justify;
      height: 550px;
      width: 300px;
@@ -247,7 +247,7 @@
 	.informations
 	{
 	 color:#58D68D;	
-	 font-family:;
+	
 	}
 	
 	.cv
