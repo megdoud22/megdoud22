@@ -265,12 +265,11 @@
 	 border-radius: 15px;
 	}
    
-  footer
-{
-    display: flex;
-    background: url('Images/ico_top.png') no-repeat bottom center, url('Images/separateur.png') repeat-x bottom, url('Images/ombre.png') repeat-x bottom;
-    margin-bottom: 1000px;
-}
+  h3
+  {
+    position: static;
+    margin-top:-5000px;
+  }
   
   
   
