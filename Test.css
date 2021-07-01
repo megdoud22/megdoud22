@@ -224,7 +224,7 @@
 	{
 	   width:40%;
      height:1000px;
-	 
+	   
      margin-left:60%;	
      background-color: #706b64;
      border-radius: 8px;
@@ -265,10 +265,9 @@
 	 border-radius: 15px;
 	}
    
-  h3
+   a:hover
   {
-    position: static;
-    margin-top:-5000px;
+   color: white;
   }
   
   
