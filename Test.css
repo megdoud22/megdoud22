@@ -1,7 +1,10 @@
 
  /* index.html*/
 
-
+   body
+   {
+	background-image: url("Images/Background-1.jfif");
+   }
   
   .bordure
   {
@@ -131,10 +134,19 @@
        
 	   
 
-  .slide
+  .slide 
       {
        float: left;
+	   
       }
+	  
+	.slide img
+	{
+	 width:500;
+	 height:350;
+	}
+	  
+	  
          
        @keyframes glisse 
           {
@@ -252,14 +264,14 @@
 	
 	.cv
 	{
-	 border-right: 4px solid brown;
+	 border-right: 5px solid brown;
 	 padding-left: 46px;
 	 box-shadow: 5px 0px 8px yellow;
 	}
 
 	.livret
 	{   
-	 width: 4%;
+	 width: 5%;
 	 height:292px;
 	 background-image: url('Images/liseret.jpg');
 	 border-radius: 15px;
