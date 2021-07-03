@@ -1,26 +1,20 @@
 
  /* index.html*/
 
-
+   .en_tête
+   {
+    display:flex;
+   }
   
-  .bordure
-  {
-   float:right;
-   border-left:12px double red;
-   border-right:12px double red;
-   
-   border-bottom:none;
-  }
+  
+
   .logo
   {
-   
    border:10px white double;
    background:black;
-   margin-right:1600px;
+  
    border-radius:15px;
-   margin-left:15px;
-   border-color:;
-  }
+   }
  
   h1
   {
