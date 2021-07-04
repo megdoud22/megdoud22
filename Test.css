@@ -344,9 +344,18 @@
     border:1px yellow solid;
     }
 
-    img title
+    p
     {
-     color:blue;
+    display: none;
+    }
+
+    div:hover p 
+    {
+    display: block;
+    margin-right:1300px;
+    color:white ;
+    text-decoration: double underline;
+
     }
 
    
