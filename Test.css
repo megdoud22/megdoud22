@@ -339,12 +339,12 @@
 
    .bordure-menu
    {
-    margin:50px;
-    border-radius: 20px;
-    border:2px yellow solid;
-   }
+    margin:30px;
+    border-radius:20px;
+    border:1px yellow solid;
+    }
 
-   title
+    img title
     {
      color:blue;
     }
