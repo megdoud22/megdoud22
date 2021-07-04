@@ -22,7 +22,16 @@
    border-radius:15px;
   }
 
-   
+@keyframes changement {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:teal; left:0px; top:0px;}
+
+
+ 
+}
   h1
   {
    display:flex;
@@ -40,6 +49,10 @@
    border-bottom-style:double;
    font-style:italic;
    font-weight:bolder;
+   animation-name: changement;
+   position: relative;
+   animation-delay: 2s;
+   animation-duration: 10s;
    }
 
   h1 img
@@ -83,9 +96,15 @@
    border-radius:15px;
   }
 
-.slider
+  
+  .carroussel
+   {
+   float:right;  
+   }
+  
+  .slider
   {
-    width: 500px;
+    width: 1900px;
     overflow: hidden;
     
   }
@@ -93,7 +112,7 @@
  .slides
   {
     animation: glisse 30s infinite;
-    width: calc(500px * 6);
+    width: calc(500px * 7);
             
    }
           
@@ -236,30 +255,6 @@
   
   }
   
-   .carroussel
-   {
-   float:right;  
-   }
-  
-  .slider
-  {
-    width: 1900px;
-    overflow: hidden;
-    
-  }
-          
- .slides
-  {
-    animation: glisse 30s infinite;
-    width: calc(500px * 7);
-            
-  }
-       
-     
-
-  
-       
-       
     article
   {
      margin-top:55px;
@@ -282,10 +277,10 @@
      text-decoration: double underline;
      color:#58D68D;
     }
+
   .informations
   {
    color:#58D68D; 
-  
   }
   
   .cv
@@ -302,12 +297,11 @@
    background-image: url('Images/liseret.jpg');
    border-radius: 15px;
   }
-   
-   a:hover
-  {
-   color: white;
+  p{
+    color: white;
   }
+   
   
   
   
-  
+    }
