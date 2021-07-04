@@ -337,13 +337,54 @@
 
 
   /*Matériel.html*/
-   
-  .Matériel 
+
+   .bordure-menu
+   {
+    margin:50px;
+    border-radius: 20px;
+   }
+   .pelier-1
+   {
+    display:inline-block;
+    
+    border-radius:20px;
+    margin-top:-55px;
+    margin-left:50px;
+
+   }
+
+
+
+   .Matériel
+   {
+    margin:50px;
+   }
+
+   ul 
   {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width:250px;
+   background-color:tomato;
+   border-radius:20px;
   }
-  
+
+  li a 
+  {
+   display: block;
+   color: white;
+   text-decoration: none;
+   padding:10px 15px;
+
+  }
+
+  li a:hover
+  {
+   color:yellow;
+   background-color:black;
+   border:5px brown ridge;
+   border-radius:15px;
+  }
   
     
