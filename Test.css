@@ -7,9 +7,9 @@
    }
   
   .Mon-logo
-  {
+   {
    display: flex;
-  }
+   }
 
   .logo_1
    {
@@ -20,18 +20,16 @@
    border-bottom:35px gray groove; 
    background-color:black;
    border-radius:15px;
-  }
+   }
 
-@keyframes changement {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:teal; left:0px; top:0px;}
+   @keyframes changement {
+   0%   {background-color:red; left:0px; top:0px;}
+   25%  {background-color:yellow; left:200px; top:0px;}
+   50%  {background-color:blue; left:200px; top:200px;}
+   75%  {background-color:green; left:0px; top:200px;}
+   100% {background-color:teal; left:0px; top:0px;}
+   }
 
-
- 
-}
   h1
   {
    display:flex;
@@ -106,17 +104,14 @@
   {
     width: 1900px;
     overflow: hidden;
-    
   }
           
  .slides
   {
     animation: glisse 30s infinite;
     width: calc(500px * 7);
-            
-   }
+  }
           
-
   .slide
       {
        float: left;
@@ -203,7 +198,7 @@
             {
               transform: translateX(0);
             }
-           }
+          }
 
 #corps
 {
@@ -211,38 +206,34 @@
 }
 
 .Mon-cadre 
-   {
-    width: 250px;
-    background-color: black;
-    border-radius: 20px;
-    margin-left: 50px;
-    box-shadow: 16px 16px 16px yellow;
-    margin-top:100px;
+  {
+   width: 250px;
+   background-color: black;
+   border-radius: 20px;
+   margin-left: 50px;
+   box-shadow: 16px 16px 16px yellow;
+   margin-top:100px;
    }
    
- .Mon-cadre-f
+.Mon-cadre-f
   {
    width: 250px;
    background-color: black;
    border-radius: 20px;
    margin-left: 80px;
    box-shadow: 16px 16px 16px yellow;
-  
   }
 
   
 .navbar ul
-   {
+  {
   border-radius: 20px;
-
-   }
+  }
   
 .navbar ul li
   {
   color:white;
   text-decoration: underline;
-
-
   background:url("Images/background.jpg") no-repeat;
   padding-left:18px;
   }
@@ -251,32 +242,29 @@
   {
   border:6px gray ridge;
   border-radius: 20px;
-  
-  
   }
   
-    article
+ article
   {
-     margin-top:55px;
-     margin-left:5%;  
-     background-color: #706b64;
-     border-radius: 8px;
-     padding:10px;
-     color: white;
-     font-size: 0.9em;
-     font-family:serif;
-     text-align: justify;
-     height: 550px;
-     width: 300px;
-    }
+   margin-top:55px;
+   margin-left:5%;  
+   background-color: #706b64;
+   border-radius: 8px;
+   padding:10px;
+   color: white;
+   font-size: 0.9em;
+   font-family:serif;
+   text-align: justify;
+   height: 550px;
+   width: 300px;
+  }
   
   article h2
-  
-    {
-     text-align: center;
-     text-decoration: double underline;
-     color:#58D68D;
-    }
+  {  
+   text-align: center;
+   text-decoration: double underline;
+   color:#58D68D;
+  }
 
   .informations
   {
@@ -297,11 +285,13 @@
    background-image: url('Images/liseret.jpg');
    border-radius: 15px;
   }
-  p{
-    color: white;
+
+  p
+  {
+   color: white;
   }
    
   
   
   
-    }
+    
