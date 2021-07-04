@@ -1,5 +1,5 @@
 
- /* index.html*/
+ /* index.html */
 
    body
    {
@@ -60,7 +60,6 @@
   
   .morceau
   {
-
    color: white;
    text-shadow:10px 10px 23px yellow;
    margin-left:15px;
@@ -336,28 +335,34 @@
 
 
 
-  /*Matériel.html*/
+  /* Matériel.html */
 
    .bordure-menu
    {
     margin:50px;
     border-radius: 20px;
+    border:2px yellow solid;
    }
+
+   title
+    {
+     color:blue;
+    }
+
+   
+
    .pelier-1
    {
     display:inline-block;
-    
     border-radius:20px;
     margin-top:-55px;
     margin-left:50px;
-
    }
-
-
 
    .Matériel
    {
-    margin:50px;
+    margin-top:-10px;
+    margin-left:20px;
    }
 
    ul 
@@ -376,7 +381,6 @@
    color: white;
    text-decoration: none;
    padding:10px 15px;
-
   }
 
   li a:hover
