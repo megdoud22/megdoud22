@@ -326,6 +326,12 @@
    padding-left: 46px;
    box-shadow: 15px 0px 8px yellow;
    transition: width 2s, height 2s, transform 2s;
+   position: relative;
+   animation-name:cv;
+   animation-duration: 20s;  
+   animation-delay: 2s;
+   animation-fill-mode: backwards;
+
   }
 
   .cv:hover 
@@ -333,6 +339,10 @@
   width: 230px;
   height: 400px;
   transform: rotate(360deg);
+  }
+  @keyframes cv {
+  from {top: 0px;}
+  to {top:200px;}
   }
 
   .livret
