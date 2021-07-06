@@ -281,6 +281,26 @@
    margin-right:10px;
    padding:3px;
    border-left:6px white double;
+   width: 250px;
+   height:50px;
+   transition: width 15s;
+   animation-name: moi;
+   animation-duration: 15s;
+   border-bottom: 10px black ridge;
+  }
+
+  article h2:hover
+  {
+  width: 600px;
+  }
+  @keyframes moi 
+  {
+  from {background-color: #6C3483;}
+  to {background-color: yellow;}
+  from {color:snow;}
+  to {color:black;}
+  from {border-bottom: 10px black ridge;}
+  to {border-bottom: 50px gray double;}
 
   }
 
@@ -305,6 +325,14 @@
    border-right: 15px solid brown;
    padding-left: 46px;
    box-shadow: 15px 0px 8px yellow;
+   transition: width 2s, height 2s, transform 2s;
+  }
+
+  .cv:hover 
+  {
+  width: 230px;
+  height: 400px;
+  transform: rotate(360deg);
   }
 
   .livret
@@ -315,6 +343,11 @@
    border-radius: 15px;
    border: 3px white double;
    padding-top:15px;
+   transition: width 2s, height 4s;
+  }
+  .livret:hover {
+  width: 340px;
+  height: 550px;
   }
 
   article p
@@ -369,7 +402,6 @@
     margin:30px;
     border-radius:20px;
     border:1px yellow solid;
-   
    }
 
    
@@ -442,8 +474,9 @@
    width:250px;
    background-color:tomato;
    border-radius:20px;
+  
    animation-name: example;
-   animation-duration: 30s;
+   animation-duration: 40s;
    animation-delay: -2s;
 
   }
@@ -460,7 +493,6 @@
    text-decoration: none;
    padding:10px 15px;
    text-align: center;
-                     
   }
 
    li a.active
